@@ -33,7 +33,6 @@ Entries say what a project does, not what it markets, and carry its license wher
 - [Langfuse](https://github.com/langfuse/langfuse) - Self-hostable tracing, prompt management, datasets, and evals; ingests OTel as well as its own SDKs; open-core, MIT outside the `ee/` directories.
 - [Arize Phoenix](https://github.com/Arize-ai/phoenix) - Trace viewer and eval workbench that runs locally in a notebook or as a server; source-available under the Elastic License 2.0.
 - [LangSmith](https://docs.langchain.com/langsmith/observability) - Hosted tracing and eval product from LangChain; the [client SDKs](https://github.com/langchain-ai/langsmith-sdk) are open source, the backend is not.
-- [Helicone](https://github.com/Helicone/helicone) - Proxy-based observability: change your base URL and API key to get request logs, cost tracking, and caching without instrumenting your code.
 - [Opik](https://github.com/comet-ml/opik) - Comet's open-source tracing and evaluation platform for LLM and agent workflows.
 - [LangWatch](https://github.com/langwatch/langwatch) - OTel-based platform pairing production monitoring with pre-deploy agent simulation, plus an AI gateway and coding-agent tracking; open-core, Apache-2.0 outside the `enterprise/` directory.
 - [Laminar](https://github.com/lmnr-ai/lmnr) - Open-source tracing and eval platform for agent runs, with a Rust backend.
