@@ -44,14 +44,13 @@ Entries say what a project does, not what it markets, and carry its license wher
 - [AgentOps](https://github.com/AgentOps-AI/agentops) - Python SDK for session replay, cost tracking, and tracing across CrewAI, OpenAI Agents SDK, LangChain, AG2, and others; the SDK is MIT, the self-hostable app is Elastic License 2.0.
 - [AgentsView](https://github.com/kenn-io/agentsview) - Local-first session search, analytics, and token-use statistics for the Claude Code, Codex, and other coding-agent session archives on your machine; it analyses the agents you use, not apps you build.
 - [Noveum Trace](https://github.com/Noveum/noveum-trace) - Python SDK whose context managers trace operations, LLM calls, and agent steps and send them over HTTPS to the hosted Noveum platform or a custom endpoint; the SDK is Apache-2.0, the backend is hosted.
-- [NovaFabric](https://github.com/MSKazemi/novafabric) - Self-hosted capture of agent runs as portable Run Capsules that you can replay and structurally diff against another run; Apache-2.0, pre-1.0.
 
 ## Trace backends
 
 General-purpose OpenTelemetry backends that GenAI spans can be sent to when you do not want an LLM-specific product.
 
 - [OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector) - Vendor-neutral pipeline to receive, process, filter, and fan out traces before they reach a backend.
-- [SigNoz](https://github.com/SigNoz/signoz) - OTel-native, self-hostable traces, metrics, and logs in one UI; open-core, MIT outside the `ee/` directories.
+- [SigNoz](https://github.com/SigNoz/signoz) - OTel-native, self-hostable traces, metrics, and logs in one UI; open-core, MIT outside the `ee/` and `cmd/enterprise/` directories.
 - [Jaeger](https://github.com/jaegertracing/jaeger) - CNCF distributed tracing backend that stores spans and serves trace search and a waterfall UI over them.
 - [Grafana Tempo](https://github.com/grafana/tempo) - High-volume trace store backed by object storage, queried from Grafana; AGPL-3.0.
 
@@ -73,6 +72,7 @@ General-purpose OpenTelemetry backends that GenAI spans can be sent to when you 
 - [ClawBench](https://github.com/TIGER-AI-Lab/ClawBench) - Live-web benchmark for evaluating browser and computer-use agents on about 280 everyday tasks, with request interception and recorded execution evidence.
 - [HermesGate](https://github.com/roli-lpci/hermes-gate) - Runs a repository's own checks and stores a receipt keyed to the content and tool versions checked; in `fast` and `review` modes an identical receipt is reused as a PASS and any change re-runs the checks, giving an agent's own PR a repeatable pre-review result.
 - [YYLO Benchmark](https://github.com/yylo-dev/yylo-benchmark) - Runs coding prompts and tasks across models and harnesses on fresh checkouts, keeps every output unchanged, and lets you re-evaluate them later with new checks or judges.
+- [NovaFabric](https://github.com/MSKazemi/novafabric) - Self-hosted CLI whose `nova capture` wraps any command, such as an agent script, and records the run as a portable Run Capsule that you can replay and structurally diff against another run; Apache-2.0, pre-1.0.
 
 ## Guardrails and security
 
@@ -99,7 +99,7 @@ General-purpose OpenTelemetry backends that GenAI spans can be sent to when you 
 - [Model Context Protocol](https://github.com/modelcontextprotocol/modelcontextprotocol) - The specification itself; the source of truth for what a compliant client, server, and transport must do.
 - [MCP Inspector](https://github.com/modelcontextprotocol/inspector) - Official UI for calling an MCP server's tools by hand and reading the raw JSON-RPC traffic.
 - [MCP Registry](https://github.com/modelcontextprotocol/registry) - Official, community-owned registry service for publishing and discovering MCP servers; still in preview.
-- [mcp-trace](https://github.com/anhermon/mcp-trace) - CLI proxy for MCP servers over SSE or Streamable HTTP that emits an OpenTelemetry span per tool call with duration, status, and propagated trace context, including Streamable HTTP tool calls that return `text/event-stream`; current release is [v2.0.4](https://github.com/anhermon/mcp-trace/releases/tag/v2.0.4).
+- [mcp-trace](https://github.com/anhermon/mcp-trace) - CLI proxy for MCP servers over SSE or Streamable HTTP that emits an OpenTelemetry span per tool call with duration, status, and propagated trace context, including Streamable HTTP tool calls that return `text/event-stream`.
 - [ToolHive](https://github.com/stacklok/toolhive) - Runs MCP servers in containers with permission policies, secrets handling, and audit logging.
 - [MCPJungle](https://github.com/mcpjungle/MCPJungle) - Self-hosted registry and single gateway endpoint for the MCP servers an organisation runs.
 - [MCP Context Forge](https://github.com/IBM/mcp-context-forge) - Gateway and registry that federates MCP servers and REST APIs behind one endpoint, with auth, plugins, and OpenTelemetry tracing of tool calls; Apache-2.0.

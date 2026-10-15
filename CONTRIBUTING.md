@@ -21,7 +21,7 @@ These are the thresholds every entry is held to, at submission and at each audit
 | 4 | Old enough to judge | The project is at least 8 weeks old, counted from repository creation or first public release. | Decline; the author can resubmit once it passes. |
 | 5 | Real docs | A README or docs site with install or usage steps. Hosted-only products need public docs that back every claim in the description. | Decline or remove. |
 | 6 | In scope | It helps you observe, evaluate, or govern an LLM or agent application (see "What belongs here"). | Decline, recategorize, or remove. |
-| 7 | Licence stated | Stated in the description when not plainly open source: open-core (any `ee/` or `enterprise/` directory under a separate licence), source-available, AGPL, or a hosted backend. | Fix the description. |
+| 7 | License stated | Stated in the description when not plainly open source: open-core (any `ee/` or `enterprise/` directory under a separate license), source-available, AGPL, or a hosted backend. | Fix the description. |
 | 8 | Hands-on | You installed or built it and exercised the claim in the description, and the PR says what you ran. Projects that are only a README or mostly generated boilerplate do not make the list. | Decline. |
 | 9 | One entry, one place | Each project appears once, in the category it best fits. | Merge or move. |
 | 10 | Format | `- [Name](link) - What it actually does.` Sentence case, one line, one sentence, ends with a period, describes behaviour rather than positioning. No "revolutionary", no "next-gen", no feature lists copied from a landing page. | Reword. |
