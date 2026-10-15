@@ -43,6 +43,7 @@ Entries say what a project does, not what it markets, and carry its license wher
 - [Braintrust](https://www.braintrust.dev/docs/instrument) - Hosted eval and tracing platform; see [Autoevals](https://github.com/braintrustdata/autoevals) below for its open-source scorers.
 - [AgentOps](https://github.com/AgentOps-AI/agentops) - Python SDK for session replay, cost tracking, and tracing across CrewAI, OpenAI Agents SDK, LangChain, AG2, and others; the SDK is MIT, the self-hostable app is Elastic License 2.0.
 - [AgentsView](https://github.com/kenn-io/agentsview) - Local-first session search, analytics, and token-use statistics for the Claude Code, Codex, and other coding-agent session archives on your machine; it analyses the agents you use, not apps you build.
+- [AgentMeasure](https://github.com/roy-tong/AgentMeasure) - Local CLI that reads Codex and Claude Code session logs and reports duplicate records, retry chains, and repeated tool failures, marking what the logs cannot decide as UNPROVABLE instead of zero.
 - [Noveum Trace](https://github.com/Noveum/noveum-trace) - Python SDK whose context managers trace operations, LLM calls, and agent steps and send them over HTTPS to the hosted Noveum platform or a custom endpoint; the SDK is Apache-2.0, the backend is hosted.
 
 ## Trace backends
