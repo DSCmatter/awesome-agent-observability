@@ -83,7 +83,6 @@ General-purpose OpenTelemetry backends that GenAI spans can be sent to when you 
 - [garak](https://github.com/NVIDIA/garak) - LLM vulnerability scanner probing for jailbreaks, prompt injection, and data leakage.
 - [DeepTeam](https://github.com/confident-ai/deepteam) - Red-teaming framework that simulates jailbreaks, prompt injection, and related attacks against LLM and agent apps, built on DeepEval.
 - [Presidio](https://github.com/data-privacy-stack/presidio) - PII detection, redaction, and anonymisation for text and images; useful for scrubbing traces before export.
-- [sealref](https://github.com/anhermon/sealref) - macOS Keychain-backed secret store for coding agents: an MCP server hands the agent `sealref://` refs instead of values, and `sealref run` injects the value into one command and redacts it from that command's output (maintainer's project); macOS only, MIT.
 - [Snyk agent-scan](https://github.com/snyk/agent-scan) - Security scanner for MCP servers, agents, and skills, formerly Invariant Labs' `mcp-scan`; `inspect` lists what a config exposes locally, while `scan` needs a Snyk token and calls Snyk's hosted API.
 - [MCP Scanner](https://github.com/cisco-ai-defense/mcp-scanner) - Scans MCP servers' tools, prompts, resources, and instructions for poisoning and exfiltration patterns using YARA rules, optional LLM and behavioural analyzers, and a Cisco API analyzer; Apache-2.0.
 
