@@ -40,7 +40,7 @@ date, archive banner, redirect target).
 
 ## Self-promotion
 
-Allowed and stated up front — the maintainer's own `mcp-trace` is on the list.
+Allowed and stated up front — the maintainer's own `mcp-trace` and `sealref` are on the list.
 Submit your own project if it meets the bar above, and write the description
 the same way you would for someone else's.
 
