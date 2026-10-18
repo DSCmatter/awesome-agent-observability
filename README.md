@@ -2,7 +2,7 @@
 
 > Curated tools, standards, and platforms for tracing, evaluating, and governing LLM and AI-agent applications.
 
-Agents fail in ways ordinary services do not: a run is non-deterministic, spans a dozen model and tool calls, and "wrong" is a quality judgement rather than a status code. The projects below cover the resulting stack ΓÇö OpenTelemetry conventions for GenAI, tracing backends, evaluation harnesses, guardrails, gateways, and Model Context Protocol tooling.
+Agents fail in ways ordinary services do not: a run is non-deterministic, spans a dozen model and tool calls, and "wrong" is a quality judgement rather than a status code. The projects below cover the resulting stack — OpenTelemetry conventions for GenAI, tracing backends, evaluation harnesses, guardrails, gateways, and Model Context Protocol tooling.
 
 Entries say what a project does, not what it markets, and carry its license where that is not plainly open source. Projects that were dormant, end-of-life, out of scope, or too young to judge were left out. Most entries were installed or built and run against a mock backend at the 2026-10-04 audit; a few could not be run (for example Kong, SigNoz, and anything needing Docker or a hosted account), so this list does not claim every entry was exercised. A weekly job re-checks that each repository still exists, is not archived, and has a recent commit.
 
